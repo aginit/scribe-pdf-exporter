@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating Procedures</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .procedures-list {
+            padding: 40px;
+        }
+
+        .procedure-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .procedure-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+        }
+
+        .procedure-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .procedure-info {
+            color: #7f8c8d;
+            font-size: 1em;
+        }
+
+        .procedure-steps {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .procedures-list {
+                padding: 20px;
+            }
+
+            .procedure-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Operating Procedures</h1>
+            <div class="subtitle">Interactive procedure guides with step-by-step instructions</div>
+        </div>
+
+        <div class="procedures-list">
+            <a href="3cx_clean.html" class="procedure-card">
+                <div class="procedure-title">3CX Call Forwarding Setup</div>
+                <div class="procedure-info">Learn how to set up forwarding for an extension in 3CX</div>
+                <div class="procedure-steps">✅ 5 Steps (Clean)</div>
+            </a>
+
+            <a href="twilio_clean.html" class="procedure-card">
+                <div class="procedure-title">Twilio Message Logs</div>
+                <div class="procedure-info">View and manage message logs in Twilio Console</div>
+                <div class="procedure-steps">✅ 6 Steps (Clean)</div>
+            </a>
+
+            <a href="final_comparison.html" class="procedure-card">
+                <div class="procedure-title">🔧 Before & After Comparison</div>
+                <div class="procedure-info">See how the logo and step merging issues were fixed</div>
+                <div class="procedure-steps">Technical Details</div>
+            </a>
+
+            <a href="dashboard.html" class="procedure-card">
+                <div class="procedure-title">📊 Conversion Dashboard</div>
+                <div class="procedure-info">Overview of all batch conversions and validation reports</div>
+                <div class="procedure-steps">Batch Results</div>
+            </a>
+        </div>
+
+        <div class="footer">
+            Generated from PDF procedures • Click on any procedure to view detailed steps
+        </div>
+    </div>
+</body>
+</html>

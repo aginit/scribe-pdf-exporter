@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOP Doc Protocol Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .sopdoc-link {
+            background: #e3f2fd;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #1976d2;
+            border: 1px solid #bbdefb;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .sopdoc-link:hover { background: #bbdefb; }
+    </style>
+</head>
+<body>
+    <h1>SOP Document Protocol Test</h1>
+
+    <div class="test-section">
+        <h2>Available JSON Procedures with sopdoc:// Links</h2>
+        <p>These links would open in a custom SOP document viewer application:</p>
+
+        <div>
+            <strong>3CX Provision Phone Procedure:</strong><br>
+            <a href="sopdoc://localhost:8080/downloads/3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613.json" class="sopdoc-link">📋 Open 3CX Phone Provision Procedure</a>
+        </div>
+
+        <div>
+            <strong>AutoElevate License Key Procedure:</strong><br>
+            <a href="sopdoc://localhost:8080/downloads/autoelevate_autoelevatecopy_autoelevate_license_key_to_clipboard3_steps1_year_agoandrew_greene_1757786540653.json" class="sopdoc-link">📋 Open AutoElevate License Procedure</a>
+        </div>
+
+        <div>
+            <strong>Altaro File Restore Procedure:</strong><br>
+            <a href="sopdoc://localhost:8080/downloads/altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934.json" class="sopdoc-link">📋 Open Altaro Restore Procedure</a>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Protocol Handler Information</h2>
+        <p>The <code>sopdoc://</code> protocol would be registered with the operating system to open JSON procedure files in a dedicated SOP document viewer application.</p>
+
+        <p><strong>Expected Behavior:</strong></p>
+        <ul>
+            <li>Clicking a "📋 Open Procedure" link launches the SOP viewer</li>
+            <li>The JSON file path is passed to the application</li>
+            <li>The viewer displays the procedure with images and step-by-step instructions</li>
+        </ul>
+
+        <p><strong>Link Format:</strong><br>
+        <code>sopdoc://[hostname:port]/downloads/[procedure_filename].json</code></p>
+
+        <p><strong>Examples:</strong><br>
+        <code>sopdoc://localhost:8080/downloads/procedure.json</code><br>
+        <code>sopdoc://server.example.com/downloads/procedure.json</code></p>
+    </div>
+
+    <div class="test-section">
+        <h2>Integration Status</h2>
+        <p>✅ Dashboard updated to show sopdoc:// links for converted JSON files</p>
+        <p>✅ Links exclude reference files (perfect, clean, test)</p>
+        <p>✅ Protocol format: <code>sopdoc://[file_path]</code></p>
+        <p>⚠️  Protocol handler registration required on client systems</p>
+    </div>
+</body>
+</html>

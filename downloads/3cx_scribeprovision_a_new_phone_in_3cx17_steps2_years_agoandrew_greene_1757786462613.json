@@ -1,0 +1,246 @@
+{
+  "title": "3cx Scribeprovision A New Phone In 3cx",
+  "total_steps": 16,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Open the customers 3CX admin page",
+      "page": 1,
+      "images": [
+        {
+          "page": 1,
+          "filename": "step_1_page_1.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_1_page_1.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Click the users extension",
+      "page": 2,
+      "images": [
+        {
+          "page": 2,
+          "filename": "step_2_page_2.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_2_page_2.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Click Phone Provisioning",
+      "page": 3,
+      "images": [
+        {
+          "page": 3,
+          "filename": "step_3_page_3.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_3_page_3.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Click Add",
+      "page": 4,
+      "images": [
+        {
+          "page": 4,
+          "filename": "step_4_page_4.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_4_page_4.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Select the phone model",
+      "page": 5,
+      "images": [
+        {
+          "page": 5,
+          "filename": "step_5_page_5.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_5_page_5.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Enter the MAC address",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step_6_page_6.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_6_page_6.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 7,
+      "description": "Click ok",
+      "page": 7,
+      "images": [
+        {
+          "page": 7,
+          "filename": "step_7_page_7.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_7_page_7.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 8,
+      "description": "Click on Provisioning Method",
+      "page": 8,
+      "images": [
+        {
+          "page": 8,
+          "filename": "step_8_page_8.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_8_page_8.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 9,
+      "description": "Select Direct SIP",
+      "page": 9,
+      "images": [
+        {
+          "page": 9,
+          "filename": "step_9_page_9.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_9_page_9.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 10,
+      "description": "Copy the provisioning link",
+      "page": 10,
+      "images": [
+        {
+          "page": 10,
+          "filename": "step_10_page_10.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_10_page_10.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 11,
+      "description": "Click OK",
+      "page": 11,
+      "images": [
+        {
+          "page": 11,
+          "filename": "step_11_page_11.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_11_page_11.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 12,
+      "description": "Log into the phones admin interface",
+      "page": 12,
+      "images": [
+        {
+          "page": 12,
+          "filename": "step_12_page_12.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_12_page_12.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 13,
+      "description": "Click Settings then Auto Provision",
+      "page": 13,
+      "images": [
+        {
+          "page": 13,
+          "filename": "step_13_page_13.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_13_page_13.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 14,
+      "description": "Past the provisioning link",
+      "page": 14,
+      "images": [
+        {
+          "page": 14,
+          "filename": "step_14_page_14.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_14_page_14.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 15,
+      "description": "Click Confirm",
+      "page": 15,
+      "images": [
+        {
+          "page": 15,
+          "filename": "step_15_page_15.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_15_page_15.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 16,
+      "description": "Click Auto Provision Now",
+      "page": 16,
+      "images": [
+        {
+          "page": 16,
+          "filename": "step_16_page_16.png",
+          "path": "3cx_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoandrew_greene_1757786462613_images/step_16_page_16.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    }
+  ]
+}

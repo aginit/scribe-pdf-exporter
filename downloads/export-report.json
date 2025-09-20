@@ -1,0 +1,21 @@
+{
+  "total": 35,
+  "successful": 35,
+  "failed": 0,
+  "totalTime": "8.1",
+  "avgRate": "4.3",
+  "failedDocs": [],
+  "foldersProcessed": [
+    "Unsorted",
+    "3CX",
+    "Altaro",
+    "AutoElevate",
+    "Blue Iris",
+    "Breach Secure Now",
+    "Client Software",
+    "Network",
+    "OpenVPN",
+    "Pax8",
+    "Playbooks"
+  ]
+}

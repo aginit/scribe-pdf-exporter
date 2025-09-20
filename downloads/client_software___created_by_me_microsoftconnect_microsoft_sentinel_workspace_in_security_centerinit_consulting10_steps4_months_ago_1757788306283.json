@@ -1,0 +1,171 @@
+{
+  "title": "Client Software Microsoftconnect Microsoft Sentinel Workspace in Security Center",
+  "total_steps": 11,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "In Security Center",
+      "page": 1,
+      "images": [
+        {
+          "page": 1,
+          "filename": "step-1.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-1.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Navigate to https security.microsoft.com homepage?tid 9d74f21d-9a52-4880-. Bb25-13a0534d24a6",
+      "page": 2,
+      "images": [
+        {
+          "page": 2,
+          "filename": "step-2.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-2.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Click \" Settings\"",
+      "page": 3,
+      "images": [
+        {
+          "page": 3,
+          "filename": "step-3.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-3.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Click \"Microsoft Sentinel\"",
+      "page": 4,
+      "images": [
+        {
+          "page": 4,
+          "filename": "step-4.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-4.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Click here.",
+      "page": 5,
+      "images": [
+        {
+          "page": 5,
+          "filename": "step-5.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-5.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Click \"Connect workspace\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 7,
+      "description": "Click here.",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 8,
+      "description": "Click \"Next\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 9,
+      "description": "Click \"Connect\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 10,
+      "description": "Click \"Connect\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "step_number": 11,
+      "description": "Click \"Connect\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step-6.png",
+          "path": "client_software___created_by_me_microsoftconnect_microsoft_sentinel_workspace_in_security_centerinit_consulting10_steps4_months_ago_1757788306283_images/step-6.png",
+          "width": 1280,
+          "height": 713,
+          "placeholder": true
+        }
+      ]
+    }
+  ]
+}

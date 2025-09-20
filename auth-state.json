@@ -1,0 +1,295 @@
+{
+  "cookies": [
+    {
+      "name": "mp_52e5e0805583e8a410f1ed50d8e0c049_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22%24device%3A19943acaded2e4-081e95b7c27d978-3e780e74-e1000-19943acaded2e4%22%2C%22%24device_id%22%3A%20%2219943acaded2e4-081e95b7c27d978-3e780e74-e1000-19943acaded2e4%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpr%22%3A%20%5B%5D%2C%22__mpap%22%3A%20%5B%5D%7D",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1789313014,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.451828264.1757777014",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1765553014,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "6RQLO8V340lTQrMOIe8.u1w2EQ.6Oj6wKXdes6cOgHk-1757777014-1.0.1.1-Vrjx8pJz9zPaMpRXdV4BNSWnQNQ6g0aqXVn0m.ojcmE8nQRYX7fiwgFgIZamGt9Lt425GFyEzsDnz2W5..2NR7GmUZ0UDMXRl9kchPNM9Rk",
+      "domain": ".js.ubembed.com",
+      "path": "/",
+      "expires": 1757778814.44787,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "32eNKaCzt60uSMsrnYrmoxqrkAQ",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1791473014.450658,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "flagsmithUniqueID",
+      "value": "a6489bb5-1e15-43b2-b340-6b19e1664178",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1792337014.487278,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__spdt",
+      "value": "02f87fccc2fa42d3b11c809a2ceef042",
+      "domain": "scribehow.com",
+      "path": "/",
+      "expires": 1789313014,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_uetsid",
+      "value": "9d44ad0090b511f0a20ab1593c799d87",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1757863415,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "9d44eec090b511f0a2aa1b44041b8317",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1791473015,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "135BA2FFA33E67423FDBB499A2E866DB",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1791473016.073928,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1758381816.074027,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "li_sugr",
+      "value": "38838e21-fe8a-487b-9d1c-55a709a4454a",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1765553015.309465,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST07:s=T:r=T:a=T:p=T:g=3185:u=1:x=1:i=1757777015:t=1757863415:v=2:sig=AQFIJBOafV8Vc37SuXi6jczZaU94Vhbq\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1757863416.108911,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&c204da0a-9abc-4b46-81ad-7935d657b6e3\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1789313016.309576,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "value": "1",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1791473015,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ttp",
+      "value": "01K51TSCAPD2SHD0X7C8H95MER_.tt.1",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1791473015,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1757777015168.742908061868350834",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1765553018,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQJbFJ25GynztgAAAZlDrLGCoKId7doxc1xFxYMbscnDLNNKqiUvGgLbnT9oD5EdGkWNuTYTPk3YvA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1760369015.181742,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQIeTGS3wIg-hgAAAZlDrLGC352xCQYA3TpXBq7cUu4zuc3xCUCjzLjwhPCuBL2PgqXEGA94kwG5zn-elJHG1A",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1760369015.181789,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20250913152335a52e47d4-bbe3-47aa-8aab-02237b70af96AQEvJ-Nj_44mBXneDQkEeHztN1EEg86i\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1789313015.268786,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "9Z2.oJxiZ5ZFPc0yuGy0Ge63yq.RAbtOJhtnrI2BQd4-1757777015-1.0.1.1-.lNbf2YS6StaPtzeWvoF5XBWs0Z.opFSJg1tRQOMBsN7o35_uDNEjl.Z.4.TFGKTpFir6jaUJTH3HyVCH4d_jFatFcwrTcSULsKBtKu1fDU",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1757778815.268936,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ttcsid",
+      "value": "1757777015131::67HXjWXUbdfXD7abSbQn.1.1757777016470",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1791473016,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid_C9CT27BC77U9N0P9G88G",
+      "value": "1757777015130::dAisdf0XFg1bwyrmvW4m.1.1757777016496",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1791473016,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "data",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU3ODIwMjE3LCJpYXQiOjE3NTc3NzcwMTcsImp0aSI6ImNjMTljNmJjMmFhNTRkM2ZhNTlhMzI3N2JhYjQzOTY3IiwidXNlcl9pZCI6IjEyOTI0NTMiLCJ2ZXJzaW9uIjowfQ.IjkqUYx8jbLlYdiZ-bvb8DkYUyJ7UDBkmD-u4KDztlQ",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1760313600,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "refresh_data",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc2MDM2OTAxNywiaWF0IjoxNzU3Nzc3MDE3LCJqdGkiOiJmOTFiYTJjZGFlOWQ0OTZkYmUyZGJjMDIwZDAxNGVmNyIsInVzZXJfaWQiOiIxMjkyNDUzIiwidmVyc2lvbiI6MH0.P_pzFn-_7RWVbxqd9z43fCda8XxOHm9foY59gfub2ww",
+      "domain": ".scribehow.com",
+      "path": "/",
+      "expires": 1760313600,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://scribehow.com",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1757777015152"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Thu, 08 Oct 2026 15:23:35 GMT"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Sun, 14 Sep 2025 15:23:35 GMT"
+        },
+        {
+          "name": "_uetvid",
+          "value": "9d44eec090b511f0a2aa1b44041b8317"
+        },
+        {
+          "name": "ub-emb-id",
+          "value": "1e1f2fdf835f49d18c3cfe7012015afe"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1757777014359},\"expires\":1765553014359}}"
+        },
+        {
+          "name": "_uetsid",
+          "value": "9d44ad0090b511f0a20ab1593c799d87"
+        },
+        {
+          "name": "__mpq_52e5e0805583e8a410f1ed50d8e0c049_ev",
+          "value": "[{\"id\":\"u4l35ra3ztbsh3o7\",\"flushAfter\":1757777024427,\"payload\":{\"event\":\"view_page\",\"properties\":{\"$os\":\"Linux\",\"$browser\":\"Chrome\",\"$current_url\":\"https://scribehow.com/signin\",\"$browser_version\":140,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.51.0\",\"$insert_id\":\"5uzgu3eb1sr4u383\",\"time\":1757777014.427,\"distinct_id\":\"$device:19943acaded2e4-081e95b7c27d978-3e780e74-e1000-19943acaded2e4\",\"$device_id\":\"19943acaded2e4-081e95b7c27d978-3e780e74-e1000-19943acaded2e4\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"path\":\"/signin\",\"is_electron\":false,\"current_plan_atm\":\"free\",\"token\":\"52e5e0805583e8a410f1ed50d8e0c049\"}}}]"
+        },
+        {
+          "name": "li_adsId",
+          "value": "4e3054c3-1365-40ec-9ab9-ca6d03b745da"
+        },
+        {
+          "name": "persist:root",
+          "value": "{\"account\":\"{\\\"data\\\":null,\\\"stats\\\":{\\\"totalNumberScribes\\\":0,\\\"totalScribeViews\\\":0,\\\"totalScribeReactions\\\":0,\\\"mostClappedScribe\\\":null,\\\"mostViewedScribe\\\":null},\\\"previousData\\\":null,\\\"isLoading\\\":false,\\\"isError\\\":false,\\\"errorMessage\\\":null,\\\"affiliateLink\\\":\\\"\\\",\\\"joinableTeams\\\":null,\\\"loadingJoinableTeams\\\":false,\\\"loadedAllJoinableTeams\\\":false,\\\"totalJoinableTeams\\\":0,\\\"allTeams\\\":[],\\\"loadingAllTeams\\\":false,\\\"loadedAllTeams\\\":false,\\\"totalAllTeams\\\":0,\\\"searchTeamsQuery\\\":\\\"\\\",\\\"loadingAllowedDomain\\\":false,\\\"allowedDomain\\\":null,\\\"referrals\\\":[],\\\"showStickyActivationChecklist\\\":true,\\\"userDocumentsInActiveTeam\\\":[],\\\"loadingUserDocuments\\\":false}\",\"auth\":\"{\\\"jwtToken\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU3ODIwMjE3LCJpYXQiOjE3NTc3NzcwMTcsImp0aSI6ImNjMTljNmJjMmFhNTRkM2ZhNTlhMzI3N2JhYjQzOTY3IiwidXNlcl9pZCI6IjEyOTI0NTMiLCJ2ZXJzaW9uIjowfQ.IjkqUYx8jbLlYdiZ-bvb8DkYUyJ7UDBkmD-u4KDztlQ\\\",\\\"data\\\":{\\\"ssoEnabledDomain\\\":false},\\\"authenticatedRedirectUrl\\\":null,\\\"isLoading\\\":false,\\\"isError\\\":false,\\\"errorMessage\\\":null,\\\"jwtRefreshToken\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc2MDM2OTAxNywiaWF0IjoxNzU3Nzc3MDE3LCJqdGkiOiJmOTFiYTJjZGFlOWQ0OTZkYmUyZGJjMDIwZDAxNGVmNyIsInVzZXJfaWQiOiIxMjkyNDUzIiwidmVyc2lvbiI6MH0.P_pzFn-_7RWVbxqd9z43fCda8XxOHm9foY59gfub2ww\\\"}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}

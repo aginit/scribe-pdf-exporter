@@ -1,0 +1,331 @@
+[dotenv@17.2.2] injecting env (5) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+🚀 Starting Complete Scribe Export...
+📁 Downloads will be saved to: /home/andrew/scribe_download/scribe-exporter/downloads
+🔐 Logging in...
+✅ Login successful!
+🔍 Discovering all folders and documents...
+
+📂 [1/19] Exploring: Unsorted
+   📄 Found 6 documents
+
+📂 [2/19] Exploring: 3CX
+   📄 Found 2 documents
+
+📂 [3/19] Exploring: Altaro
+   📄 Found 1 documents
+
+📂 [4/19] Exploring: AutoElevate
+   📄 Found 7 documents
+
+📂 [5/19] Exploring: Blue Iris
+   📄 Found 1 documents
+
+📂 [6/19] Exploring: Breach Secure Now
+   📄 Found 1 documents
+
+📂 [7/19] Exploring: Client Software
+   📄 Found 0 documents
+
+📂 [8/19] Exploring: Clockify
+   📄 Found 1 documents
+
+📂 [9/19] Exploring: ControlMap
+   📄 Found 2 documents
+
+📂 [10/19] Exploring: Dell
+   📄 Found 0 documents
+
+📂 [11/19] Exploring: DropSuite
+   📄 Found 2 documents
+
+📂 [12/19] Exploring: File Cloud
+   📄 Found 4 documents
+
+📂 [13/19] Exploring: General IT
+   📄 Found 1 documents
+
+📂 [14/19] Exploring: Keeper
+   📄 Found 6 documents
+
+📂 [15/19] Exploring: Microsoft
+   📄 Found 0 documents
+
+📂 [16/19] Exploring: Network
+   📄 Found 3 documents
+
+📂 [17/19] Exploring: OpenVPN
+   📄 Found 1 documents
+
+📂 [18/19] Exploring: Pax8
+   📄 Found 2 documents
+
+📂 [19/19] Exploring: Playbooks
+   📄 Found 0 documents
+
+🎯 Found 40 unique documents across 19 folders
+
+🎯 Starting export of all documents...
+
+📄 [1/40] RightworksClose All Apps on Rightworks3 Steps1 mon...
+   📂 Unsorted
+   ⏱️  8.0s -> Unsorted_rightworksclose_all_apps_on_rightworks3_steps1_mont...
+   ✅ Success
+
+📄 [2/40] TwilioView Message Logs in Twilio Console6 Steps1 ...
+   📂 Unsorted
+   ⏱️  2.0s wait
+   ⏱️  7.7s -> Unsorted_twilioview_message_logs_in_twilio_console6_steps1_m...
+   ✅ Success
+
+📄 [3/40] AzureEnable Per-User MFA for Azure Users10 Steps7 ...
+   📂 Unsorted
+   ⏱️  3.0s wait
+   ⏱️  7.5s -> Unsorted_azureenable_per_user_mfa_for_azure_users10_steps7_m...
+   ✅ Success
+
+📄 [4/40] Azure[EDIT] Add Workstations to CMMC Enclave in Az...
+   📂 Unsorted
+   ⏱️  2.4s wait
+   ⏱️  7.8s -> Unsorted_azure_edit__add_workstations_to_cmmc_enclave_in_azu...
+   ✅ Success
+
+📄 [5/40] Azure[EDIT] Add Users to CMMC Enclave in Azure Por...
+   📂 Unsorted
+   ⏱️  2.5s wait
+   ⏱️  7.6s -> Unsorted_azure_edit__add_users_to_cmmc_enclave_in_azure_port...
+   ✅ Success
+
+📄 [6/40] SharepointHighlighting and Commenting on Complianc...
+   📂 Unsorted
+   ⏱️  2.6s wait
+   ⏱️  8.2s -> Unsorted_sharepointhighlighting_and_commenting_on_compliance...
+   ✅ Success
+
+📄 [7/40] 3CxSetup forwarding for an extension in 3Cx5 Steps...
+   📂 3CX
+   ⏱️  2.1s wait
+   ⏱️  11.7s -> 3CX_3cxsetup_forwarding_for_an_extension_in_3cx5_steps2_year...
+   ✅ Success
+
+📄 [8/40] ScribeProvision a new phone in 3CX17 Steps2 years ...
+   📂 3CX
+   ⏱️  2.9s wait
+   ⏱️  11.6s -> 3CX_scribeprovision_a_new_phone_in_3cx17_steps2_years_agoand...
+   ✅ Success
+
+📄 [9/40] ScribeGranular file restore in altaro -- EDIT44 St...
+   📂 Altaro
+   ⏱️  3.0s wait
+   ⏱️  14.9s -> Altaro_scribegranular_file_restore_in_altaro____edit44_steps...
+   ✅ Success
+
+📄 [10/40] StripeAuto Elevate: Create Company Profile for Cha...
+   📂 AutoElevate
+   ⏱️  2.7s wait
+   ⏱️  12.7s -> AutoElevate_stripeauto_elevate__create_company_profile_for_c...
+   ✅ Success
+
+📊 Progress: 25% (10/40)
+   ✅ Success: 10 | ❌ Failed: 0
+   ⏱️  2.7min elapsed | 3.6 docs/min
+
+📄 [11/40] AutoelevateCreate a new Company6 Steps1 year agoAn...
+   📂 AutoElevate
+   ⏱️  2.7s wait
+   ⏱️  10.2s -> AutoElevate_autoelevatecreate_a_new_company6_steps1_year_ago...
+   ✅ Success
+
+📄 [12/40] AzureDeploy AutoElevate through InTune20 Steps1 ye...
+   📂 AutoElevate
+   ⏱️  2.3s wait
+   ⏱️  11.3s -> AutoElevate_azuredeploy_autoelevate_through_intune20_steps1_...
+   ✅ Success
+
+📄 [13/40] AutoelevateCopy AutoElevate License Key to Clipboa...
+   📂 AutoElevate
+   ⏱️  2.1s wait
+   ⏱️  15.9s -> AutoElevate_autoelevatecopy_autoelevate_license_key_to_clipb...
+   ✅ Success
+
+📄 [14/40] AutoelevateCreate a new Location for a Company6 St...
+   📂 AutoElevate
+   ⏱️  2.8s wait
+   ⏱️  11.5s -> AutoElevate_autoelevatecreate_a_new_location_for_a_company6_...
+   ✅ Success
+
+📄 [15/40] AutoelevateDownload AutoElevate MSI3 Steps1 year a...
+   📂 AutoElevate
+   ⏱️  2.5s wait
+   ⏱️  13.7s -> AutoElevate_autoelevatedownload_autoelevate_msi3_steps1_year...
+   ✅ Success
+
+📄 [16/40] AutoelevateCopy Company ID from AutoElevate Dashbo...
+   📂 AutoElevate
+   ⏱️  2.3s wait
+   ⏱️  12.7s -> AutoElevate_autoelevatecopy_company_id_from_autoelevate_dash...
+   ✅ Success
+
+📄 [17/40] ScribeSetting Up Emails for Down Cameras (Blue Iri...
+   📂 Blue Iris
+   ⏱️  2.8s wait
+   ⏱️  13.2s -> Blue_Iris_scribesetting_up_emails_for_down_cameras__blue_iri...
+   ✅ Success
+
+📄 [18/40] Pii-ProtectCreating a New Client and Configuring U...
+   📂 Breach Secure Now
+   ⏱️  2.6s wait
+   ⏱️  18.4s -> Breach_Secure_Now_pii_protectcreating_a_new_client_and_confi...
+   ✅ Success
+
+📄 [19/40] ScribeLog time Using the Clockify Browser Extensio...
+   📂 Clockify
+   ⏱️  2.4s wait
+   ⏱️  11.7s -> Clockify_scribelog_time_using_the_clockify_browser_extension...
+   ✅ Success
+
+📄 [20/40] CtrlmapAdd new user to ControlMap.4 Steps1 year ag...
+   📂 ControlMap
+   ⏱️  2.1s wait
+   ⏱️  10.3s -> ControlMap_ctrlmapadd_new_user_to_controlmap_4_steps1_year_a...
+   ✅ Success
+
+📊 Progress: 50% (20/40)
+   ✅ Success: 20 | ❌ Failed: 0
+   ⏱️  5.3min elapsed | 3.8 docs/min
+
+📄 [21/40] CtrlmapCreate a New Team on Control Map7 Steps1 ye...
+   📂 ControlMap
+   ⏱️  2.7s wait
+   ⏱️  11.1s -> ControlMap_ctrlmapcreate_a_new_team_on_control_map7_steps1_y...
+   ✅ Success
+
+📄 [22/40] DropmyemailHow to Backup Microsoft 365 in DropSuit...
+   📂 DropSuite
+   ⏱️  3.0s wait
+   ⏱️  12.9s -> DropSuite_dropmyemailhow_to_backup_microsoft_365_in_dropsuit...
+   ✅ Success
+
+📄 [23/40] Pax8How to Add DropSuite to a customer through Pax...
+   📂 DropSuite
+   ⏱️  2.7s wait
+   ⏱️  11.7s -> DropSuite_pax8how_to_add_dropsuite_to_a_customer_through_pax...
+   ✅ Success
+
+📄 [24/40] ScribeFileCloud: How to share files and folders10 ...
+   📂 File Cloud
+   ⏱️  2.9s wait
+   ⏱️  15.1s -> File_Cloud_scribefilecloud__how_to_share_files_and_folders10...
+   ✅ Success
+
+📄 [25/40] ScribeFileCloud: Guide to Uploading a File5 Steps1...
+   📂 File Cloud
+   ⏱️  2.6s wait
+   ⏱️  10.7s -> File_Cloud_scribefilecloud__guide_to_uploading_a_file5_steps...
+   ✅ Success
+   💾 Progress saved
+
+📄 [26/40] ScribeFilkeCloud: Create New Folder and Upload Fil...
+   📂 File Cloud
+   ⏱️  3.0s wait
+   ⏱️  11.9s -> File_Cloud_scribefilkecloud__create_new_folder_and_upload_fi...
+   ✅ Success
+
+📄 [27/40] ScribeAdd a User in FileCloud30 Steps1 year agoAnd...
+   📂 File Cloud
+   ⏱️  2.9s wait
+   ⏱️  11.6s -> File_Cloud_scribeadd_a_user_in_filecloud30_steps1_year_agoan...
+   ✅ Success
+
+📄 [28/40] LinkedInAdd Local Admin Account Using PowerShell4 ...
+   📂 General IT
+   ⏱️  2.1s wait
+   ⏱️  10.1s -> General_IT_linkedinadd_local_admin_account_using_powershell4...
+   ✅ Success
+
+📄 [29/40] Keeper SecurityAdd a User in Keeper Security Conso...
+   📂 Keeper
+   ⏱️  2.4s wait
+   ⏱️  11.7s -> Keeper_keeper_securityadd_a_user_in_keeper_security_console8...
+   ✅ Success
+
+📄 [30/40] Keeper SecurityCreate Temporary Self-Destructing L...
+   📂 Keeper
+   ⏱️  2.0s wait
+   ⏱️  7.5s -> Keeper_keeper_securitycreate_temporary_self_destructing_logi...
+   ✅ Success
+
+📊 Progress: 75% (30/40)
+   ✅ Success: 30 | ❌ Failed: 0
+   ⏱️  7.6min elapsed | 3.9 docs/min
+
+📄 [31/40] Keeper SecurityHow to Enable Two-Factor Authentica...
+   📂 Keeper
+   ⏱️  2.4s wait
+   ⏱️  11.8s -> Keeper_keeper_securityhow_to_enable_two_factor_authenticatio...
+   ✅ Success
+
+📄 [32/40] AzureProvisioning Users in Keeper Password Manager...
+   📂 Keeper
+   ⏱️  2.5s wait
+   ⏱️  11.7s -> Keeper_azureprovisioning_users_in_keeper_password_manager_wi...
+   ✅ Success
+
+📄 [33/40] Keeper SecurityStep-by-step guide to configuring K...
+   📂 Keeper
+   ⏱️  2.1s wait
+   ⏱️  11.7s -> Keeper_keeper_securitystep_by_step_guide_to_configuring_keep...
+   ✅ Success
+
+📄 [34/40] Keeper SecurityStep-by-Step Guide: Configuring SCI...
+   📂 Keeper
+   ⏱️  2.7s wait
+   ⏱️  11.7s -> Keeper_keeper_securitystep_by_step_guide__configuring_scim_f...
+   ✅ Success
+
+📄 [35/40] NetworksolutionsHow to add MX, CNAME, and TXT reco...
+   📂 Network
+   ⏱️  2.3s wait
+   ⏱️  13.2s -> Network_networksolutionshow_to_add_mx__cname__and_txt_record...
+   ✅ Success
+
+📄 [36/40] Initconsulting[NEEDS EDIT] Adding a Deployment and...
+   📂 Network
+   ⏱️  2.1s wait
+   ⏱️  11.6s -> Network_initconsulting_needs_edit__adding_a_deployment_and_s...
+   ✅ Success
+
+📄 [37/40] Noip[NEEDS EDIT] How to Create a No-IP Dynamic DNS...
+   📂 Network
+   ⏱️  2.4s wait
+   ⏱️  11.9s -> Network_noip_needs_edit__how_to_create_a_no_ip_dynamic_dns_h...
+   ✅ Success
+
+📄 [38/40] ScribeOpen VPN instructions20 Steps9 months agoAnd...
+   📂 OpenVPN
+   ⏱️  2.8s wait
+   ⏱️  11.9s -> OpenVPN_scribeopen_vpn_instructions20_steps9_months_agoandre...
+   ✅ Success
+
+📄 [39/40] Pax8Add additional Microsoft Intune Endpoint Privi...
+   📂 Pax8
+   ⏱️  2.8s wait
+   ⏱️  11.9s -> Pax8_pax8add_additional_microsoft_intune_endpoint_privilege_...
+   ✅ Success
+
+📄 [40/40] Pax8Add additional Microsoft 365 E3 Subscription o...
+   📂 Pax8
+   ⏱️  2.4s wait
+   ⏱️  11.7s -> Pax8_pax8add_additional_microsoft_365_e3_subscription_on_pax...
+   ✅ Success
+
+📊 Progress: 100% (40/40)
+   ✅ Success: 40 | ❌ Failed: 0
+   ⏱️  10.0min elapsed | 4.0 docs/min
+
+🎉 Export Complete!
+📊 Results:
+   ✅ Success: 40/40
+   ❌ Failed: 0/40
+   ⏱️  Total time: 10.0min
+   🚀 Rate: 4.0 docs/min
+   📁 Saved to: /home/andrew/scribe_download/scribe-exporter/downloads

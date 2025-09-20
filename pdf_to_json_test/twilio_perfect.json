@@ -1,0 +1,84 @@
+{
+  "title": "View Message Logs in Twilio Console",
+  "total_steps": 6,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Navigate to https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1",
+      "page": 1,
+      "images": [
+        {
+          "filename": "step_1_page_1.png",
+          "path": "twilio_perfect_images/step_1_page_1.png",
+          "width": 1280,
+          "height": 713
+        }
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Click this icon.",
+      "page": 1,
+      "images": [
+        {
+          "filename": "step_2_page_1.png",
+          "path": "twilio_perfect_images/step_2_page_1.png",
+          "width": 1280,
+          "height": 713
+        }
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Click \"Overview\"",
+      "page": 2,
+      "images": [
+        {
+          "filename": "step_3_page_2.png",
+          "path": "twilio_perfect_images/step_3_page_2.png",
+          "width": 1280,
+          "height": 714
+        }
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Click \"View all message logs\"",
+      "page": 2,
+      "images": [
+        {
+          "filename": "step_4_page_2.png",
+          "path": "twilio_perfect_images/step_4_page_2.png",
+          "width": 1280,
+          "height": 714
+        }
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Click \"2025-07-306:54:11 PDT\"",
+      "page": 3,
+      "images": [
+        {
+          "filename": "step_5_page_3.png",
+          "path": "twilio_perfect_images/step_5_page_3.png",
+          "width": 1280,
+          "height": 714
+        }
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "View message details",
+      "page": 4,
+      "images": [
+        {
+          "filename": "step_6_page_4.png",
+          "path": "twilio_perfect_images/step_6_page_4.png",
+          "width": 1280,
+          "height": 714
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altaro Scribegranular File Restore In Altaro Edit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .step-count {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .steps-container {
+            padding: 40px;
+        }
+
+        .step {
+            margin-bottom: 50px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .step-number {
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .step-description {
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .step-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .step-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .step-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+        }
+
+        .step-image.placeholder {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            padding: 40px;
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .navigation {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .nav-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Altaro Scribegranular File Restore In Altaro Edit</h1>
+            <div class="step-count">37 Steps</div>
+        </div>
+
+        <div class="steps-container">
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-description">Open Altaro VM Backup</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_1_page_1.png" alt="Step 1" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_1_page_1.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-description">Login</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_2_page_2.png" alt="Step 2" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_2_page_2.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-description">Click "Restore"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_3_page_3.png" alt="Step 3" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_3_page_3.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-description">Click "File Granular Restore"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_4_page_4.png" alt="Step 4" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_4_page_4.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-description">Select the backup source</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_5_page_5.png" alt="Step 5" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_5_page_5.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">6</div>
+                <div class="step-description">Click "Next"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_6_page_6.png" alt="Step 6" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_6_page_6.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">7</div>
+                <div class="step-description">Select the source of the file</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_7_page_7.png" alt="Step 7" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_7_page_7.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">8</div>
+                <div class="step-description">Click "Next"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_8_page_8.png" alt="Step 8" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_8_page_8.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">9</div>
+                <div class="step-description">Select the backup date</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_9_page_9.png" alt="Step 9" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_9_page_9.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">10</div>
+                <div class="step-description">Click "Continue"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_10_page_10.png" alt="Step 10" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_10_page_10.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">11</div>
+                <div class="step-description">Click "Next"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_11_page_11.png" alt="Step 11" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_11_page_11.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">12</div>
+                <div class="step-description">Select Disk and Partition where the file is located</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_12_page_12.png" alt="Step 12" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_12_page_12.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">13</div>
+                <div class="step-description">Navigate to the file or folder</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_13_page_13.png" alt="Step 13" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_13_page_13.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">14</div>
+                <div class="step-description">Select the file or folder</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_14_page_14.png" alt="Step 14" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_14_page_14.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">15</div>
+                <div class="step-description">Click "Next"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_15_page_15.png" alt="Step 15" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_15_page_15.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">16</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_16_page_16.png" alt="Step 16" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_16_page_16.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">17</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_17_page_17.png" alt="Step 17" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_17_page_17.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">18</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_18_page_18.png" alt="Step 18" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_18_page_18.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">19</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_19_page_19.png" alt="Step 19" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_19_page_19.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">20</div>
+                <div class="step-description">Type "\firstdata&quot;</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_20_page_20.png" alt="Step 20" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_20_page_20.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">21</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_21_page_21.png" alt="Step 21" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_21_page_21.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">22</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_22_page_22.png" alt="Step 22" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_22_page_22.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">23</div>
+                <div class="step-description">Type "\firstdata\projects"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_23_page_23.png" alt="Step 23" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_23_page_23.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">24</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_24_page_24.png" alt="Step 24" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_24_page_24.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">25</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_25_page_25.png" alt="Step 25" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_25_page_25.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">26</div>
+                <div class="step-description">Press ctrl + c</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_26_page_26.png" alt="Step 26" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_26_page_26.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">27</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_27_page_27.png" alt="Step 27" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_27_page_27.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">28</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_28_page_28.png" alt="Step 28" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_28_page_28.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">29</div>
+                <div class="step-description">Press ctrl + v</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_29_page_29.png" alt="Step 29" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_29_page_29.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">30</div>
+                <div class="step-description">Type "&quot;</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_30_page_30.png" alt="Step 30" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_30_page_30.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">31</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_31_page_31.png" alt="Step 31" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_31_page_31.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">32</div>
+                <div class="step-description">Type "fap tab"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_32_page_32.png" alt="Step 32" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_32_page_32.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">33</div>
+                <div class="step-description">Type "administrator tab"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_33_page_33.png" alt="Step 33" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_33_page_33.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">34</div>
+                <div class="step-description">Type "flam!beau"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_34_page_34.png" alt="Step 34" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_34_page_34.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">35</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_35_page_35.png" alt="Step 35" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_35_page_35.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">36</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_36_page_36.png" alt="Step 36" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_36_page_36.png')">
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">37</div>
+                <div class="step-description">Click "First Appraisal Group - FIRSTSRV"</div>
+                <div class="step-images">
+                    <img src="altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_37_page_37.png" alt="Step 37" class="step-image" onclick="openModal('altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_37_page_37.png')">
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="#" class="nav-button" onclick="window.print()">Print Guide</a>
+            <a href="#" class="nav-button" onclick="window.scrollTo(0,0)">Back to Top</a>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        function openModal(src) {
+            document.getElementById('imageModal').style.display = 'block';
+            document.getElementById('modalImage').src = src;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

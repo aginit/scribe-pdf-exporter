@@ -1,0 +1,78 @@
+{
+  "title": "Setup forwarding for an extension in",
+  "total_steps": 5,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Navigate to the 3CX Admin Console",
+      "page": 1,
+      "images": [
+        {
+          "filename": "step_1_page_1_img_1.png",
+          "path": "3cx_final_images/step_1_page_1_img_1.png",
+          "width": 1280,
+          "height": 713
+        },
+        {
+          "filename": "step_1_page_1_img_2.png",
+          "path": "3cx_final_images/step_1_page_1_img_2.png",
+          "width": 258,
+          "height": 395
+        }
+      ],
+      "confidence": 0.9,
+      "warnings": [
+        "Description corrected for 3CX step 1"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Click the rule you want to modify",
+      "page": 2,
+      "images": [
+        {
+          "filename": "step_2_page_2_img_1.png",
+          "path": "3cx_final_images/step_2_page_2_img_1.png",
+          "width": 1280,
+          "height": 713
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "step_number": 3,
+      "description": "Click the rule you want to modify",
+      "page": 2,
+      "images": [
+        {
+          "filename": "step_3_page_2_img_2.png",
+          "path": "3cx_final_images/step_3_page_2_img_2.png",
+          "width": 1280,
+          "height": 713
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "step_number": 4,
+      "description": "Select the new destination for calls during office hours and/or outside office hours",
+      "page": 2,
+      "images": [],
+      "confidence": 0.9
+    },
+    {
+      "step_number": 5,
+      "description": "Click \"OK\"",
+      "page": 3,
+      "images": [
+        {
+          "filename": "step_5_page_3_img_1.png",
+          "path": "3cx_final_images/step_5_page_3_img_1.png",
+          "width": 1280,
+          "height": 713
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

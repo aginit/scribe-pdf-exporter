@@ -1,0 +1,561 @@
+{
+  "title": "Altaro Scribegranular File Restore In Altaro Edit",
+  "total_steps": 37,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Open Altaro VM Backup",
+      "page": 1,
+      "images": [
+        {
+          "page": 1,
+          "filename": "step_1_page_1.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_1_page_1.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Login",
+      "page": 2,
+      "images": [
+        {
+          "page": 2,
+          "filename": "step_2_page_2.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_2_page_2.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Click \"Restore\"",
+      "page": 3,
+      "images": [
+        {
+          "page": 3,
+          "filename": "step_3_page_3.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_3_page_3.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Click \"File Granular Restore\"",
+      "page": 4,
+      "images": [
+        {
+          "page": 4,
+          "filename": "step_4_page_4.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_4_page_4.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Select the backup source",
+      "page": 5,
+      "images": [
+        {
+          "page": 5,
+          "filename": "step_5_page_5.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_5_page_5.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Click \"Next\"",
+      "page": 6,
+      "images": [
+        {
+          "page": 6,
+          "filename": "step_6_page_6.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_6_page_6.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 7,
+      "description": "Select the source of the file",
+      "page": 7,
+      "images": [
+        {
+          "page": 7,
+          "filename": "step_7_page_7.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_7_page_7.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 8,
+      "description": "Click \"Next\"",
+      "page": 8,
+      "images": [
+        {
+          "page": 8,
+          "filename": "step_8_page_8.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_8_page_8.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 9,
+      "description": "Select the backup date",
+      "page": 9,
+      "images": [
+        {
+          "page": 9,
+          "filename": "step_9_page_9.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_9_page_9.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 10,
+      "description": "Click \"Continue\"",
+      "page": 10,
+      "images": [
+        {
+          "page": 10,
+          "filename": "step_10_page_10.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_10_page_10.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 11,
+      "description": "Click \"Next\"",
+      "page": 11,
+      "images": [
+        {
+          "page": 11,
+          "filename": "step_11_page_11.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_11_page_11.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 12,
+      "description": "Select Disk and Partition where the file is located",
+      "page": 12,
+      "images": [
+        {
+          "page": 12,
+          "filename": "step_12_page_12.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_12_page_12.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 13,
+      "description": "Navigate to the file or folder",
+      "page": 13,
+      "images": [
+        {
+          "page": 13,
+          "filename": "step_13_page_13.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_13_page_13.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 14,
+      "description": "Select the file or folder",
+      "page": 14,
+      "images": [
+        {
+          "page": 14,
+          "filename": "step_14_page_14.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_14_page_14.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 15,
+      "description": "Click \"Next\"",
+      "page": 15,
+      "images": [
+        {
+          "page": 15,
+          "filename": "step_15_page_15.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_15_page_15.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 16,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 16,
+      "images": [
+        {
+          "page": 16,
+          "filename": "step_16_page_16.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_16_page_16.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 17,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 17,
+      "images": [
+        {
+          "page": 17,
+          "filename": "step_17_page_17.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_17_page_17.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 18,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 18,
+      "images": [
+        {
+          "page": 18,
+          "filename": "step_18_page_18.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_18_page_18.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 19,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 19,
+      "images": [
+        {
+          "page": 19,
+          "filename": "step_19_page_19.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_19_page_19.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 20,
+      "description": "Type \"\\firstdata&quot;",
+      "page": 20,
+      "images": [
+        {
+          "page": 20,
+          "filename": "step_20_page_20.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_20_page_20.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 21,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 21,
+      "images": [
+        {
+          "page": 21,
+          "filename": "step_21_page_21.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_21_page_21.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 22,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 22,
+      "images": [
+        {
+          "page": 22,
+          "filename": "step_22_page_22.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_22_page_22.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 23,
+      "description": "Type \"\\firstdata\\projects\"",
+      "page": 23,
+      "images": [
+        {
+          "page": 23,
+          "filename": "step_23_page_23.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_23_page_23.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 24,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 24,
+      "images": [
+        {
+          "page": 24,
+          "filename": "step_24_page_24.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_24_page_24.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 25,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 25,
+      "images": [
+        {
+          "page": 25,
+          "filename": "step_25_page_25.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_25_page_25.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 26,
+      "description": "Press ctrl + c",
+      "page": 26,
+      "images": [
+        {
+          "page": 26,
+          "filename": "step_26_page_26.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_26_page_26.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 27,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 27,
+      "images": [
+        {
+          "page": 27,
+          "filename": "step_27_page_27.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_27_page_27.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 28,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 28,
+      "images": [
+        {
+          "page": 28,
+          "filename": "step_28_page_28.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_28_page_28.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 29,
+      "description": "Press ctrl + v",
+      "page": 29,
+      "images": [
+        {
+          "page": 29,
+          "filename": "step_29_page_29.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_29_page_29.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 30,
+      "description": "Type \"&quot;",
+      "page": 30,
+      "images": [
+        {
+          "page": 30,
+          "filename": "step_30_page_30.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_30_page_30.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 31,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 31,
+      "images": [
+        {
+          "page": 31,
+          "filename": "step_31_page_31.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_31_page_31.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 32,
+      "description": "Type \"fap tab\"",
+      "page": 32,
+      "images": [
+        {
+          "page": 32,
+          "filename": "step_32_page_32.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_32_page_32.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 33,
+      "description": "Type \"administrator tab\"",
+      "page": 33,
+      "images": [
+        {
+          "page": 33,
+          "filename": "step_33_page_33.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_33_page_33.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 34,
+      "description": "Type \"PASSWORD\"",
+      "page": 34,
+      "images": [
+        {
+          "page": 34,
+          "filename": "step_34_page_34.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_34_page_34.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 35,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 35,
+      "images": [
+        {
+          "page": 35,
+          "filename": "step_35_page_35.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_35_page_35.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 36,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 36,
+      "images": [
+        {
+          "page": 36,
+          "filename": "step_36_page_36.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_36_page_36.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "step_number": 37,
+      "description": "Click \"First Appraisal Group - FIRSTSRV\"",
+      "page": 37,
+      "images": [
+        {
+          "page": 37,
+          "filename": "step_37_page_37.png",
+          "path": "altaro_scribegranular_file_restore_in_altaro____edit44_steps1_year_agoandrew_greene_1757786479934_images/step_37_page_37.png",
+          "width": 1200,
+          "height": 800,
+          "placeholder": false
+        }
+      ]
+    }
+  ]
+}

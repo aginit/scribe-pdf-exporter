@@ -1,0 +1,18 @@
+{
+  "title": "3cx forwarding",
+  "total_steps": 1,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Made with Scribe - https://scribehow.com1 Setup forwarding for an extension in 3Cx 1 Navigate to the 3CX Admin Console 2 Click \"Inbound Rules\" Made with Scribe - https://scribehow.com2 3 Click the rule you want to modify 4 Select the new destination for calls during office hours and/or outside office hours Made with Scribe - https://scribehow.com3 5 Click \"OK\"",
+      "page": 1,
+      "images": [],
+      "confidence": 0.8
+    }
+  ],
+  "metadata": {
+    "converted_at": "2025-09-18T19:23:42.471Z",
+    "source_type": "pdf",
+    "extraction_method": "automated"
+  }
+}
